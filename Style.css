@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    margin: 0%;
+}
+
+.Logo-Principale {
+    width: 20%;
+}
+
+.Navbar-Link {
+    display: flex;
+    list-style-type: none;
+}
+
+.Link {
+    text-decoration: none;
+    padding: 0% 1vw;
+    color: blue;
+}
+
+.Link:hover {
+    color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: yellow;
+}
+
+.Main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Main-Section {
+    background-color: gray;
+    max-width: 30%;
+    margin: 0% 1%;
+}
+
+.Main-Img {
+    width: 100%;
+    height: 50%;
+    border-radius: 60%;
+}
+
+.Main-Article {
+    margin: 2%;
+    text-align: justify;
+}
