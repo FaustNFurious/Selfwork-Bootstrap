@@ -14,31 +14,57 @@
 
 <body>
     
-    <nav>
-        <img src="./Media/Logo-Giallo-Zafferano.png" alt="Immagine Logo non più disponibile" class="Logo-Principale">
-        <ul class="Navbar-Link">
-            <li> <a href=" " class="Link">RICETTE</a> </li>
-            <li> <a href=" " class="Link">BLOG</a> </li>
-            <li> <a href=" " class="Link">SHOPPING</a> </li>
-            <li> <a href=" " class="Link">CHEF</a> </li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-light position-fixed w-100">
+       
+      <div class="container-fluid">
+          <img src="./Media/Logo-Giallo-Zafferano.png" alt="Immagine Logo non più disponibile" class="Logo-Principale">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <header>
-        <h1>Le Ricette Tipiche del Piemonte</h1>
-    </header>
+          <div class="collapse navbar-collapse" id="navbarNav">
 
-    <main>
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">RICETTE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SHOPPING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CHEF</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <header class="container-fluid">
+        <h1 class="row vh-100 justify-content-center align-items-center text-light">
+          Le Ricette Tipiche del Piemonte
+        </h1>
+      </header>
+
+     
+      <main>
 
         <section class="Main">
 
-            
-            <section class="Main-Section">
+            <section class="Main-Section bg-secondary">
                 <a href="https://ricette.giallozafferano.it/Agnolotti.html" target="_self">
                     <img src="./Media/Agnolotti-Piemontese.png" alt="Immagine non più disponibile" class="Main-Img">
                 </a>
                 
-                <h3>Agnolotti alla Piemontese</h3>
+                <h3 class="Title text-warning">
+                  Agnolotti alla Piemontese
+                </h3>
                 
                 <article class="Main-Article text-light">
                     Gli agnolotti sono il tipico primo piatto della cucina piemontese e rappresentano una ricetta conosciuta ed apprezzata non solo in Italia, 
@@ -47,12 +73,14 @@
                 
             </section>
             
-            <section class="Main-Section">
+            <section class="Main-Section bg-secondary">
                 <a href="https://blog.giallozafferano.it/ricettedalpiemonte/fritto-misto-alla-piemontese/" target="_self">
                     <img src="./Media/Fritto-Misto-Piemontese.png" alt="Immagine non più disponibile" class="Main-Img">
                 </a>
                 
-                <h3>Fritto Misto alla Piemontese</h3>
+                <h3 class="Title text-warning">
+                  Fritto Misto alla Piemontese
+                </h3>
                 
                 <article class="Main-Article text-light">
                     E’ un piatto della tradizione piemontese, piuttosto pesante quindi perfetto per essere servito come piatto unico...
@@ -60,12 +88,14 @@
                 
             </section>
             
-            <section class="Main-Section">
+            <section class="Main-Section bg-secondary">
                 <a href="https://ricette.giallozafferano.it/Bagna-caoda.html" target="_self">
                     <img src="./Media/Bagna-Cauda.png" alt="Immagine non più disponibile" class="Main-Img">
                 </a>
                 
-                <h3>Bagna Cauda</h3>
+                <h3 class="Title text-warning">
+                  Bagna Cauda
+                </h3>
                 
                 <article class="Main-Article text-light">
                     La bagna caoda o bagna cauda è una preparazione tipica del Piemonte preparata con acciughe, 
@@ -78,10 +108,12 @@
 
     </main>
 
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-
+    
 </body>
 
 </html>
