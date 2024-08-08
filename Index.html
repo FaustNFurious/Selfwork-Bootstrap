@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricette Piemonte</title>
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -13,6 +16,8 @@
 </head>
 
 <body>
+
+    <!-- Navbar -->
     
     <nav class="navbar navbar-expand-lg bg-light position-fixed w-100">
        
@@ -30,13 +35,13 @@
                 <a class="nav-link active" aria-current="page" href="#">RICETTE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
+                <a class="nav-link active" aria-current="page" href="#">BLOG</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SHOPPING</a>
+                <a class="nav-link active" aria-current="page" href="#">SHOPPING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CHEF</a>
+                <a class="nav-link active" aria-current="page" href="#">CHEF</a>
               </li>
             </ul>
 
@@ -46,18 +51,25 @@
 
       </nav>
 
+      <!-- Header -->
+
       <header class="container-fluid">
         <h1 class="row vh-100 justify-content-center align-items-center text-light">
           Le Ricette Tipiche del Piemonte
         </h1>
       </header>
 
+      <!-- Main -->
      
       <main>
 
-        <section class="Main">
+        <!-- Main-Section -->
 
-            <section class="Main-Section bg-secondary">
+        <section class="Main d-flex">
+
+            <!-- Section 1 -->
+
+            <section class="Main-Section bg-secondary col-12 col-md-3 my-5">
                 <a href="https://ricette.giallozafferano.it/Agnolotti.html" target="_self">
                     <img src="./Media/Agnolotti-Piemontese.png" alt="Immagine non più disponibile" class="Main-Img">
                 </a>
@@ -72,8 +84,10 @@
                 </article>
                 
             </section>
+
+            <!-- Section 2 -->
             
-            <section class="Main-Section bg-secondary">
+            <section class="Main-Section bg-secondary col-12 col-md-3 my-5">
                 <a href="https://blog.giallozafferano.it/ricettedalpiemonte/fritto-misto-alla-piemontese/" target="_self">
                     <img src="./Media/Fritto-Misto-Piemontese.png" alt="Immagine non più disponibile" class="Main-Img">
                 </a>
@@ -87,8 +101,10 @@
                 </article>
                 
             </section>
+
+            <!-- Section 3 -->
             
-            <section class="Main-Section bg-secondary">
+            <section class="Main-Section bg-secondary col-12 col-md-3 my-5">
                 <a href="https://ricette.giallozafferano.it/Bagna-caoda.html" target="_self">
                     <img src="./Media/Bagna-Cauda.png" alt="Immagine non più disponibile" class="Main-Img">
                 </a>
@@ -108,6 +124,17 @@
 
     </main>
 
+    <!-- Footer -->
+
+    <footer class="Social-Contatti bg-secondary">
+      <!-- contatti Social -->
+      <ul class="Social-media-link col-12 col-md-3">
+        <li class="Social-Link text-light">Instagram <i class="bi bi-instagram"></i> </li>
+        <li class="Social-Link text-light">Facebook <i class="bi bi-facebook"></i> </li>
+        <li class="Social-Link text-light">Tik Tok <i class="bi bi-tiktok"></i> </li>
+      </ul>
+
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
